@@ -1,0 +1,6 @@
+Question 2.3 
+Cells 19:
+
+* In the same fashion as the previous question, the two first figures show the ECDF of number of play counts per Artist ID. The x-axis is the play counts and the y-axis represents the proportion of artists with a lower total play count than indicated by the curve. Note that the we begin here to study the data without taking into account different IDs pointing at the same artist. 
+* The figures seem here to indicate that the different plays are appart from outliers evenly spread out among IDs. Indeed, half of all artists Ids have less than 3 plays and 95% have less than 126 plays.
+* Some outliers can again be found among artists. 3 artist IDs distinguish themselves from others with a far greater number of play counts. They represent more that 1.8 % of all plays/
