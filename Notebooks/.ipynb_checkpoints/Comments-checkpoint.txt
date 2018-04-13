@@ -1,6 +1,11 @@
-Question 2.3 
-Cells 19:
+First comment after erratic stock:
 
-* In the same fashion as the previous question, the two first figures show the ECDF of number of play counts per Artist ID. The x-axis is the play counts and the y-axis represents the proportion of artists with a lower total play count than indicated by the curve. Note that the we begin here to study the data without taking into account different IDs pointing at the same artist. 
-* The figures seem here to indicate that the different plays are spread out among IDs. Indeed, half of all artists have less than 900 plays.
-* Some outliers can again be found among artists. 
+We have tested with an initial number of stocks equal to 100 in order to compare with the previous results.<br>
+Firstly, we note that the VaR value is lower than -500 and the conditionnal VaR lower than -800. The loss is really high! And the Kupiec value is near to 0.<br><br>
+In order to verify the trend, we have plotted the VaR, the CVaR and the kupiec value for several "number of stocks". The result is surprising. For less than 40 stocks, the VaR is higher than -50, and we note the same thing for the CVaR. And after 40 stocks, the value drops to a value that is approximately the value calculated for 100 stocks. We have a step. Is it normal ?<br>
+We decided to try to take other stocks (the stocks from the end of the file list) to see if there is a drop or not for the same value. Surprisingly, there is no drop like it at all until a large value of stocks such as more than 2000... So the drop comes from the files at the beginning. Especially, we detected a stock that had strange values that is represented just above. We can see that there are values of 0 at the beginning and a lot of 0 values through real values. That means the returncan be largely positve or negative for some windows...
+
+Second comment
+
+After having removed this stock, we have a trend of decreasing without drop, and the value for 100 stocks of the kupiec test is better than before. The VaR has decreased because we bet on more stocks so we can lose more.
+When increasing the number of stocks, we decrease the VaR and increase the kupiec value that means the reliability.
