@@ -1,0 +1,9 @@
+Necessary process 
+1. Loading the data
+
+ML method
+PCA
+-> regression
+arbre de decision
+
+NN ?
